@@ -1,33 +1,11 @@
-/*  your css code here. If applicable */
-/* styles.css */
-
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(40, 20px); /* 40 columns, each 20px wide */
-    grid-template-rows: repeat(20, 20px); /* 20 rows, each 20px high */
-    gap: 2px; /* gap between boxes */
-}
-
 .square {
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    transition: background-color 0.5s ease;
+    background-color: #ffffff; /* White */
 }
 
 .square:hover {
-    background-color: #ff0000; /* Change to any color you like */
+    background-color: #ff0000; /* Red (or whatever color you set) */
 }
 
 .square.change {
-    background-color: #ff0000;
+    background-color: #ff0000; /* Red (for the change effect) */
 }
